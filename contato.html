@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato - Barbearia Alura</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="./imagens/logo.png"></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<form>
+                <label for="nomeSobreNome">Nome e sobrenome</label>
+                <input class="input-padrao" type="text" id="nomeSobreNome" placeholder="nome" >
+
+                <label for="email">Email</label>
+                <input class="input-padrao" type="text" id="email" placeholder="E-mail">
+
+                <label for="telefone">Telefone</label>
+                <input class="input-padrao" type="text" id="telefone" placeholder="(XX) XXXXX-XXXX">
+                
+                <label for="mensagem">Mensagem</label>
+                <textarea class="input-padrao" id="mensagem" placeholder="Digite sua mensagem" cols="30" rows="10"></textarea> </textarea> 
+                
+                <div>
+                    <p> Como prefere o nosso contato ?</p>
+                    <label for="radio-email" >
+                        <input id="radio-email" type="radio" name="contato" id="tipoDeContato" value="E-mail" > Email
+                    </label>
+                    
+
+                    <label for="radio-telefone">
+                        <input type="radio" name="contato" id="radio-telefone" value="Telefone">
+                        Telefone
+                    </label>
+                    
+
+                    <label for="radio-whatsapp">
+                        <input type="radio" name="contato" id="radio-whatsapp" value="WhatsApp">
+                        WhatsApp
+                    </label>                    
+                </div>                
+                
+                <div>
+                    <p>Qual horário prefere ser atendido?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </div>
+
+                <label class="checkbox"> 
+                    <input type="checkbox">Gostaria de receber nossas novidades por email?
+                </label>
+                
+
+
+                <input type="submit" name="contato" value="Enviar formulário">
+            </form>
+		</main>
+
+		<footer>
+			 <img src="./imagens/logo-branco.png"/>
+			<p> Developed with &#10084; by David Serrate </p>
+			<p class="copyright">&copy; Copyright David - 2022</p>
+		</footer>
+	</body>
+</html>
