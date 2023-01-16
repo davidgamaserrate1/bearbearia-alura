@@ -85,9 +85,9 @@ nav a:hover {
 footer {
 	color: #FFFFFF;
 	text-align: center;
-	background: url("./imagens/bg.jpg");
-	padding: 40px 0;
-	margin-top: 20%;
+	background: url("./imagens/bg.jpg");	 
+	height: 382px;
+	padding: 40px 0;	 
 	position: relative;
 
 }
@@ -102,6 +102,7 @@ main {
 	
 }
 
+ 
 /* formulario */
 
 form {
@@ -177,7 +178,7 @@ th {
 
 .principal{
 	padding: 3em 0;
-	background: #fefefe;
+	background: #FEFEFE;
 	width: 940px;
 	margin: 0 auto;
 }
@@ -193,25 +194,17 @@ th {
 .principal em {
 	font-style: italic;
 }
+
 .utensilios{
 	width: 120px;
 	float: left;
 	margin: 0 20px 20px 0;
 
 }
-.beneficios{
-	padding: 3em 0;	
-	background: #fefefe;
-}
-
-.conteudo-beneficios{
-	width: 640px;
-	margin: 0 auto;
-}
 
 .mapa{
 	padding: 3em 0;	
-	background: linear-gradient(#fefefe, #888888)
+	 
 	 
 }
 .mapa-conteudo{
@@ -221,6 +214,15 @@ th {
 .mapa p {
 	margin: 0 0 2em;
 	text-align: center;
+}
+.beneficios{
+	padding: 3em 0;		 
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.conteudo-beneficios{
+	width: 640px;
+	margin: 0 auto;
 }
 
 
@@ -244,10 +246,20 @@ th {
 
 .imagem-beneficios {
 	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #000000  ;
+}
+.imagem-beneficios:hover {	
+	opacity: 0.3;
 }
 
 
 .video{
 	width: 560px;
 	margin: 2em auto;
+	border-radius: 10px;
 }
+
+ 
